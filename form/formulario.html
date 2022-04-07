@@ -24,22 +24,59 @@
               <label>Sobrenome</label>
               <input type="text" name="sobrenome" id="sobrenome" placeholder="Digite seu sobrenome">
           </div>
+          <div>
+            <label>Gênero</label>
+            <input type="radio" name="sex" id="sex"> Masculino
+            <input type="radio" name="sex" id="sex"> Feminino
+            <input type="radio" name="sex" id="sex"> Outro
+            <input type="text" name="sex" id="sex" placeholder="Especifique seu gênero"
+        </div>
       </fieldset>
-      <div>
+      
+          <fieldset>
+              <div>
           <label>Email</label>
           <input type="email" name="email" id="email" placeholder="Digite seu email">
-      </div>
-      <div>
-          <label>Qual(s) a(s) sua(s) area(s)?</label>
-          <input type="radio" name="devsofware" id="devsofware"> Desenvolvedor de Softwares
-          <input type="radio" name="admdado" id="admdado"> Administrador de Banco de Dados
-          <input type="radio" name="TI" id="TI"> Infraestrutura de TI 
-          <input type="radio" name="study" id="study"> Estudante
-          <input type="radio" name="others" id="others"> Outro
-          <input type="text" id="others" id="others" placeholder="Especifique a área"
         </div>
+        <div> 
+            <label>Senha</label>
+            <input type="text" name="senha" id="senha" placeholder="Digite sua senha">
+        </div>
+        </fieldset>
 
+        
       
+    <fieldset>
+      <div>
+          <label><strong>Assinale seu setor profissional</strong></label><br>
+             <input type="checkbox" name="devsofware" value="devsofware" id="devsofware"> 
+             <label for="devsoftware"> Desenvolvedor de Software</label>
+             <input type="checkbox" name="admdado" value="admdado" id="admdado">
+             <label for="admdado"> Administrador de Banco de Dados</label> 
+             <input type="checkbox" name="TI" value="TI" id="TI">  
+             <label for=TI> Infraestrutura de TI</label>
+             <input type="checkbox" name="study" value="study" id="study"> 
+             <label for="study"> Estudante</label>
+             <input type="checkbox" name="others" value="others" id="others"> 
+             <label for="others"> Outro</label>
+             <input type="text" id="others" id="others" placeholder="Especifique a área">
+          
+        </div>
+    </fieldset>
+    <fieldset>
+
+        <div>
+            <label>Escolaridade</label>
+            <select id="escolaridade">
+                <option selected disabled value="">Selecione</option>
+                <option>Fundamental</option>
+                <option>Médio</option>
+                <option>Superior</option>
+
+            </select>
+        </div>
+    </fieldset>
+        <button type="submite">Enviar</button>
   </form>
 </body>
 </html>
