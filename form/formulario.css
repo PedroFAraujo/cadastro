@@ -52,7 +52,7 @@ field.grupo.campo{
     margin-right: 1em;
 }
 
-.campo input[type="text"], input[type="email"], .campo select{
+.campo input[type="text"], input[type="email"], .campo select{ 
     padding: 0.2em;
     border: 1px solid 	#4682B4;
     box-shadow: 1px 1px 1px #191970;
@@ -88,3 +88,8 @@ field.grupo.campo{
 .botao, select{
     cursor: pointer;
 }
+
+.escolaridade{
+    top: 60%;
+}
+
